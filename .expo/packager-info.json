@@ -1,0 +1,10 @@
+{
+  "devToolsPort": 19002,
+  "expoServerPort": 19000,
+  "packagerPort": 19001,
+  "packagerPid": 4670,
+  "expoServerNgrokUrl": "https://ta-bsd.anonymous.carprice.exp.direct",
+  "packagerNgrokUrl": "https://packager.ta-bsd.anonymous.carprice.exp.direct",
+  "ngrokPid": 4737,
+  "webpackServerPort": null
+}
