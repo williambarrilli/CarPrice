@@ -32,6 +32,11 @@ export default class Media extends Component {
         })
       })
   }
+
+  redirectHome() {
+    this.props.navigation.navigate('Home')
+  }
+
   componentDidMount() {
     this.SearchCar()
   }
@@ -40,7 +45,7 @@ export default class Media extends Component {
     return (
       <View>
         <View style={styles.form}>
-        <Text style={styles.text}>Selecione a Marca do Carro</Text>
+          <Text style={styles.text}>Selecione a Marca do Carro</Text>
           <FlatList
             data={this.state.marcas}
             renderItem={

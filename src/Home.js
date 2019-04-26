@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Button, ImageBackground, StyleSheet, View, Text } from 'react-native';
+import { ImageBackground, StyleSheet, Text, View } from 'react-native';
+import { Button } from 'react-native-elements';
 
 
 export default class Home extends Component {
@@ -14,7 +15,7 @@ export default class Home extends Component {
     return (
       <View>
         <View style={styles.form}>
-        <Text style={styles.text} >Valores Médios de Carros</Text>
+          <Text style={styles.text} >Valores Médios de Carros</Text>
           <Button
             title="Pesquisar Carros"
             onPress={this.redirectMarca.bind(this)}

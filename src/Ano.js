@@ -36,7 +36,7 @@ export default class Ano extends Component {
         return (
             <View>
                 <View style={styles.form}>
-                <Text style={styles.text}>Selecione o Ano do Carro</Text>
+                    <Text style={styles.text}>Selecione o Ano do Carro</Text>
                     <FlatList
                         data={this.state.anos}
                         renderItem={
@@ -72,11 +72,11 @@ const styles = StyleSheet.create({
         borderRadius: 5
     },
     text: {
-      fontSize: 19,
-      fontWeight: 'bold',
-      color: 'blue',
-      marginLeft: 5,
-      marginTop: 15,
-      marginVertical: 10
+        fontSize: 19,
+        fontWeight: 'bold',
+        color: 'blue',
+        marginLeft: 5,
+        marginTop: 15,
+        marginVertical: 10
     }
 })
